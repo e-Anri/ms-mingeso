@@ -6,11 +6,15 @@ spring:
     config:
       server:
         git:
+          default-label: configuration-server
           uri: https://github.com/e-Anri/ms-mingeso.git
-          searchPath: config-data
+          searchPaths: config-data
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          
+
+  application:
+    name: config-service
+
 
 
 
