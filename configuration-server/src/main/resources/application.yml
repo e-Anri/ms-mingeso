@@ -6,6 +6,7 @@ spring:
     config:
       server:
         git:
+          clone-on-start: true
           uri: https://github.com/e-Anri/ms-mingeso.git
           searchPaths: config-data
           username: ${GIT_USER}

@@ -23,9 +23,9 @@ public class Pregunta2ProductosApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		Producto producto1 = new Producto(1, "zapatos", 39990, "CREATED");
+		Producto producto1 = new Producto(1, "zapatos", 300, "CREATED");
 		Producto producto2 = new Producto(2, "lapiz", 500, "CREATED");
-		Producto producto3 = new Producto(3, "AirPods Pro", 210990, "CREATED");
+		Producto producto3 = new Producto(3, "AirPods Pro", 210, "CREATED");
 
 		producto.save(producto1);
 		producto.save(producto2);
